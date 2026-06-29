@@ -6,7 +6,7 @@ type SkillBadgeProps = {
 
 export function SkillBadge({ children }: SkillBadgeProps) {
   return (
-    <span className="rounded bg-slate-100 px-3 py-1 text-sm text-slate-700">
+    <span className="rounded bg-surface px-3 py-1 text-sm text-slate-200">
       {children}
     </span>
   )

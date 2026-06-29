@@ -12,7 +12,7 @@ type ContactBarProps = {
 
 export function ContactBar({ email, phone, location, linkedin, github, instagram }: ContactBarProps) {
   return (
-    <div className="grid grid-cols-1 gap-3 bg-slate-900 px-10 py-5 text-white md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-3 border-y border-white/10 bg-page px-10 py-5 text-white md:grid-cols-2">
       <ContactItem icon={<MailIcon className="h-4 w-4" />}>{email}</ContactItem>
       <ContactItem icon={<PhoneIcon className="h-4 w-4" />}>{phone}</ContactItem>
       <ContactItem icon={<MapPinIcon className="h-4 w-4" />}>{location}</ContactItem>

@@ -38,4 +38,7 @@
 @theme {
   --font-sans: 'Google Sans', system-ui, sans-serif;
   --default-font-family: var(--font-sans);
+  --color-page: #1e2530;
+  --color-surface: #283040;
+  --color-accent: #7dd3fc;
 }

@@ -1,17 +1,17 @@
 import { SectionTitle } from '../section-title'
-import { SkillBadge } from '../skill-badge'
+import { SkillGroup, type SkillCategory } from '../skill-group'
 
 type SkillsProps = {
-  skills: string[]
+  categories: SkillCategory[]
 }
 
-export function Skills({ skills }: SkillsProps) {
+export function Skills({ categories }: SkillsProps) {
   return (
     <section>
-      <SectionTitle>Skills</SectionTitle>
-      <div className="flex flex-wrap gap-2">
-        {skills.map((skill) => (
-          <SkillBadge key={skill}>{skill}</SkillBadge>
+      <SectionTitle>Technical Skills</SectionTitle>
+      <div className="space-y-5">
+        {categories.map((category) => (
+          <SkillGroup key={category.title} {...category} />
         ))}
       </div>
     </section>
