@@ -1,0 +1,67 @@
+import type { Job } from '../components/work-experience-item'
+
+export const cv = {
+  name: 'Zauri Metreveli',
+  title: 'Front-end Web Developer',
+  summary:
+    'A creative and detail-oriented Front-end Developer with a proven record in building complex web applications. Specializes in developing and innovative games for online platforms. Proven success in project management and meeting tight deadlines. Experienced with Agile methodologies and proficient in version control with Git.',
+  photoUrl: undefined,
+  contact: {
+    email: 'metreveli2014@gmail.com',
+    phone: '+(995) 555 45 26 45',
+    location: 'Tbilisi, Georgia',
+    linkedin: 'linkedin.com/in/zauri-metreveli-a45703164',
+    github: 'github.com/Metrevelii',
+    instagram: 'instagram.com/metrevelii33',
+  },
+  jobs: [
+    {
+      role: 'Front-end Developer',
+      company: 'Adjarabet.com',
+      period: '03/2021 - Present',
+      location: 'Tbilisi',
+      description: 'Successful, safe and innovative gaming portal in the Caucasus region. (Gambling Facilities and Casinos)',
+      achievements: [
+        'Delivered XXL size promotion web pages on a monthly basis, ensuring top-quality design and usability for 100,000-150,000 users.',
+        'Developed a variety of complex and engaging online games such as different type of slot machines, spinning wheel games, card games.',
+        "Instrumental in increasing the company's market share by 2% in the Georgian market, moving it from ranking 2 to ranking 1.",
+        'Utilized Git for version control in collaborative projects and ensured code integrity.',
+        'Collaborated in an Agile environment, regularly communicating with Scrum Masters and Product Owners for project alignment.',
+        'Executed and delivered diverse animations to enhance user experience and game engagement.',
+      ],
+    },
+    {
+      role: 'Front-end Developer (part-time)',
+      company: 'ArtDev',
+      period: '10/2022 - Present',
+      location: 'Tbilisi, Georgia',
+      description: 'This project is an innovative online platform designed to support artists in showcasing and auctioning their paintings to a broad audience.',
+      achievements: [
+        'Leading the development of a NextJS project with TypeScript and Tailwind CSS to create a bidding webpage for artists as a part-time role.',
+        'Successfully completed the markup for five pages including modals, login/register forms, and accordions using Tailwind and TypeScript.',
+        'Implemented advanced features such as loader animation on route switching and pull-to-refresh functionality.',
+        'Developed and integrated error states for invalid inputs during login, registration, and project upload processes.',
+        'Used GraphQL to create efficient and performant queries for data retrieval on the platform.',
+        'Ongoing collaboration with team members to deliver the project as per defined timelines and quality standards.',
+      ],
+    },
+  ] satisfies Job[],
+  skills: [
+    'GraphQL',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Agile',
+    'NextJS',
+    'jQuery',
+    'HTML5',
+    'CSS',
+    'SASS',
+    'Bootstrap',
+    'Tailwind CSS',
+    'Version Control',
+    'PHP',
+    'Figma',
+    'PugJS',
+  ],
+}
